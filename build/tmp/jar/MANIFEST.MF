@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: maurinmod
+Specification-Vendor: maurinmodsareus
+Specification-Version: 1
+Implementation-Title: MaurinMod
+Implementation-Version: 1.0
+Implementation-Vendor: maurinmodsareus
+Implementation-Timestamp: 2022-11-23T17:33:42-0300
+
