@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "maurinmod:pvc_ore",
+  "step": "underground_ores"
+}

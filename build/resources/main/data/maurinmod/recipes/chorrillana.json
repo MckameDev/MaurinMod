@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ABA",
+    "CCC",
+    " E "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:egg"
+    },
+    "C": {
+      "item": "minecraft:potato"
+    },
+    "E": {
+      "item": "minecraft:bowl"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "maurinmod:chorrillana"
+  }
+}

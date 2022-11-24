@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  "A#A",
+  "#B#",
+  "A#A"
+  ],
+  "key": {
+  "#": {
+  "item": "maurinmod:pvc_ingot"
+  },
+  "A": {
+  "item": "minecraft:iron_ingot"
+  },
+  "B": {
+  "item": "minecraft:netherite_ingot"
+  }
+  },
+  "result": {
+  "item": "maurinmod:pvc_block"
+}
+}

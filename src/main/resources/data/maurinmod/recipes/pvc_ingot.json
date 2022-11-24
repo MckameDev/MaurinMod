@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "maurinmod:raw_pvc"
+  },
+  "result": "maurinmod:pvc_ingot",
+  "experience": 10,
+  "cookingtime": 500
+}

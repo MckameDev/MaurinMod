@@ -1,3 +1,16 @@
 {
-  "item.maurinmod.chorrillana": "Chorrillana"
+  "item.maurinmod.chorrillana": "Chorrillana",
+  "item.maurinmod.anticucho_raw": "Anticucho Crudo",
+  "item.maurinmod.anticucho_cooked": "Anticucho Asado",
+  "item.maurinmod.chicha": "Chicha",
+  "block.maurinmod.pvc_ore": "Mena de PVC",
+  "itemgroup.maurinmod.maurinfoodmodtab": "Comida de MaurinMod",
+  "itemgroup.maurinmod.maurinblocksmodtab": "Bloques de MaurinMod",
+  "itemgroup.maurinmod.maurinarmamentmodtab": "Armamento de MaurinMod",
+  "itemgroup.maurinmod.maurinmineralsodtab": "Minerales de MaurinMod",
+  "item.maurinmod.raw_pvc": "PVC en bruto",
+  "item.maurinmod.pvc_ingot": "Lingote de PVC",
+  "item.maurinmod.pvc_sword": "Espada PVC",
+  "block.maurinmod.pvc_block": "Bloque de PVC",
+  "block.maurinmod.pvc_block_gold": "Bloque de PVC Definitivo"
 }

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "maurinmod:pvc_ore",
+    "maurinmod:pvc_block",
+    "maurinmod:pvc_block_gold"
+  ]
+}
