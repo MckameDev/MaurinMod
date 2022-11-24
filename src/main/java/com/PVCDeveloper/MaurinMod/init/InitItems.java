@@ -21,4 +21,18 @@ public class InitItems {
             )
     );
 
+    public static final RegistryObject<Item> ANTICUCHO_RAW = ITEMS.register(
+            "anticucho_raw", () -> new Item(new Item.Properties()
+                    .tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().alwaysEat().build())
+            )
+    );
+
+    public static final RegistryObject<Item> ANTICUCHO_COOKED = ITEMS.register(
+            "anticucho_cooked", () -> new Item(new Item.Properties()
+                    .tab(CreativeModeTab.TAB_FOOD)
+                    .food(new FoodProperties.Builder().alwaysEat().build())
+            )
+    );
+
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "maurinmod:anticucho_raw"
+  },
+  "result": "maurinmod:anticucho_cooked",
+  "cookingtime": 200
+}
