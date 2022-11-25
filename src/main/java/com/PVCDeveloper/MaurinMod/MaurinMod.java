@@ -18,6 +18,7 @@ public class MaurinMod {
         MaurinFoodTab.MAURINFOOD_TAB.canScroll();
         MaurinBlocksTab.MAURINBLOCKS_TAB.canScroll();
         MaurinArmamentTab.MAURINARMAMENT_TAB.canScroll();
+        MaurinToolsTab.MAURINTOOLS_TAB.canScroll();
         MaurinMineralsTab.MAURINMINERALS_TAB.canScroll();
     }
 }

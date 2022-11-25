@@ -5,9 +5,11 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import org.checkerframework.checker.units.qual.A;
 
 public class InitItems {
 
@@ -60,13 +62,179 @@ public class InitItems {
     );
 
     public static final RegistryObject<SwordItem> PVC_SWORD = ITEMS.register(
-            "pvc_sword", () -> new SwordItem(
-                    Tiers.NETHERITE,
-                    5,
-                    1.0f,
-                     //DAÑO DE LA ESPADA
-                     // VELOCIDAD DE ATAQUE
+            "pvc_sword", () -> new SwordItem(new Tier() {
+                @Override
+                public int getUses() {
+                    return 3400;
+                }
+
+                @Override
+                public float getSpeed() {
+                    return 1.6f;
+                }
+
+                @Override
+                public float getAttackDamageBonus() {
+                    return 2;
+                }
+
+                @Override
+                public int getLevel() {
+                    return 5;
+                }
+
+                @Override
+                public int getEnchantmentValue() {
+                    return 15;
+                }
+
+                @Override
+                public Ingredient getRepairIngredient() {
+                    return Ingredient.of(PVC_INGOT.get());
+                }
+            },
+                    7,
+                    -2.4f,
+                    //DAÑO DE LA ESPADA
+                    // VELOCIDAD DE ATAQUE
                     new Item.Properties().tab(MaurinArmamentTab.MAURINARMAMENT_TAB))
+    );
+
+
+    public static final RegistryObject<HoeItem> PVC_HOE = ITEMS.register(
+            "pvc_hoe", () -> new HoeItem(new Tier() {
+                @Override
+                public int getUses() {
+                    return 3400;
+                }
+
+                @Override
+                public float getSpeed() {
+                    return 11.0f;
+                }
+
+                @Override
+                public float getAttackDamageBonus() {
+                    return 0;
+                }
+
+                @Override
+                public int getLevel() {
+                    return 0;
+                }
+
+                @Override
+                public int getEnchantmentValue() {
+                    return 0;
+                }
+
+                @Override
+                public Ingredient getRepairIngredient() {
+                    return Ingredient.of(PVC_INGOT.get());
+                }
+            },2,-2.8f,new Item.Properties().tab(MaurinToolsTab.MAURINTOOLS_TAB))
+    );
+
+    public static final RegistryObject<ShovelItem> PVC_SHOVEL = ITEMS.register(
+            "pvc_shovel", () -> new ShovelItem(new Tier() {
+                @Override
+                public int getUses() {
+                    return 3400;
+                }
+
+                @Override
+                public float getSpeed() {
+                    return 11.0f;
+                }
+
+                @Override
+                public float getAttackDamageBonus() {
+                    return 0;
+                }
+
+                @Override
+                public int getLevel() {
+                    return 5;
+                }
+
+                @Override
+                public int getEnchantmentValue() {
+                    return 15;
+                }
+
+                @Override
+                public Ingredient getRepairIngredient() {
+                    return Ingredient.of(PVC_INGOT.get());
+                }
+            },3,-2.8f,new Item.Properties().tab(MaurinToolsTab.MAURINTOOLS_TAB))
+    );
+
+    public static final RegistryObject<AxeItem> PVC_AXE = ITEMS.register(
+            "pvc_axe", () -> new AxeItem(new Tier() {
+                @Override
+                public int getUses() {
+                    return 3400;
+                }
+
+                @Override
+                public float getSpeed() {
+                    return 11.0f;
+                }
+
+                @Override
+                public float getAttackDamageBonus() {
+                    return 2;
+                }
+
+                @Override
+                public int getLevel() {
+                    return 5;
+                }
+
+                @Override
+                public int getEnchantmentValue() {
+                    return 15;
+                }
+
+                @Override
+                public Ingredient getRepairIngredient() {
+                    return Ingredient.of(PVC_INGOT.get());
+                }
+            },8,-3.0f,new Item.Properties().tab(MaurinToolsTab.MAURINTOOLS_TAB))
+
+            );
+
+    public static final RegistryObject<PickaxeItem> PVC_PICKAXE = ITEMS.register(
+            "pvc_pickaxe", () -> new PickaxeItem(new Tier() {
+                @Override
+                public int getUses() {
+                    return 3400;
+                }
+                @Override
+                public float getSpeed() {
+                    return 11.0f;
+                }
+                @Override
+                public float getAttackDamageBonus() {
+                    return 0;
+                }
+                @Override
+                public int getLevel() {
+                    return 5;
+                }
+                @Override
+                public int getEnchantmentValue() {
+                    return 15;
+                }
+                @Override
+                public Ingredient getRepairIngredient() {
+                    return Ingredient.of(PVC_INGOT.get());
+                }
+            },
+                3,-2.8f,
+                    //DAÑO DE LA PICOTA
+                    // VELOCIDAD DE ATAQUE
+                    new Item.Properties().tab(MaurinToolsTab.MAURINTOOLS_TAB))
     );
 
 }

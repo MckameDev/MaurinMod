@@ -1,6 +1,6 @@
 {
   "parent" : "item/handheld",
   "textures" : {
-    "layer0": "maurinmod:items/pvc_sword"
+    "layer0": "maurinmod:items/pvc_pickaxe"
   }
 }
