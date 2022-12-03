@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:netherite_chestplate"
+  },
+  "addition": {
+    "item": "maurinmod:pvc_block_gold"
+  },
+  "result": {
+    "item": "maurinmod:pvc_chestplate"
+  }
+}

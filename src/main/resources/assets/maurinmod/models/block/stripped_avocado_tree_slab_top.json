@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "maurinmod:blocks/stripped_avocado_tree_planks",
+    "top": "maurinmod:blocks/stripped_avocado_tree_planks",
+    "side": "maurinmod:blocks/stripped_avocado_tree_planks"
+  }
+}

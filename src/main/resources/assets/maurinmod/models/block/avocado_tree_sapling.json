@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "maurinmod:blocks/avocado_tree_sapling"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "maurinmod:avocado_tree_planks"
+  },
+  "result": "maurinmod:stripped_avocado_tree_planks",
+  "count": 1
+}

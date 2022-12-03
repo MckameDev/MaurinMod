@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "maurinmod:blocks/stripped_avocado_tree_log_top",
+    "side": "maurinmod:blocks/stripped_avocado_tree_log"
+  }
+}

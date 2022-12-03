@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "maurinmod:blocks/avocado_tree_leaves"
+  }
+}

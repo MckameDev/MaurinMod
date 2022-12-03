@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "maurinmod:pvc_ingot"
+    }
+  },
+  "result": {
+    "item": "maurinmod:pvc_nugget",
+    "count": 9
+  }
+}

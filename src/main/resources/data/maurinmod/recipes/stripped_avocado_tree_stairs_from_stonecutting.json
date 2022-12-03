@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "maurinmod:stripped_avocado_tree_stairs"
+  },
+  "result": "maurinmod:stripped_avocado_tree_stairs",
+  "count": 1
+}

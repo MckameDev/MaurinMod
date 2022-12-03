@@ -3,19 +3,47 @@
   "item.maurinmod.anticucho_raw": "Anticucho Crudo",
   "item.maurinmod.anticucho_cooked": "Anticucho Asado",
   "item.maurinmod.chicha": "Chicha",
-  "block.maurinmod.pvc_ore": "Mena de PVC",
-  "itemGroup.maurinmod.maurinfoodmodtab": "Comida de MaurinMod",
-  "itemGroup.maurinmod.maurinblocksmodtab": "Bloques de MaurinMod",
-  "itemGroup.maurinmod.maurinarmamentmodtab": "Armamento de MaurinMod",
-  "itemGroup.maurinmod.maurintoolsmodtab": "Herramientas de MaurinMod",
-  "itemGroup.maurinmod.maurinmineralsmodtab": "Minerales de MaurinMod",
+  "item.maurinmod.avocado": "Palta",
+
+  "itemGroup.maurinfoodmodtab": "Comida de MaurinMod",
+  "itemGroup.maurinblocksmodtab": "Bloques de MaurinMod",
+  "itemGroup.maurinarmamentmodtab": "Armamento de MaurinMod",
+  "itemGroup.maurintoolsmodtab": "Herramientas de MaurinMod",
+  "itemGroup.maurinmineralsmodtab": "Minerales de MaurinMod",
+
+
   "item.maurinmod.raw_pvc": "PVC en bruto",
   "item.maurinmod.pvc_ingot": "Lingote de PVC",
+  "item.maurinmod.pvc_nugget": "Pepita de PVC",
+
   "item.maurinmod.pvc_sword": "Espada PVC",
+  "item.maurinmod.pvc_helmet": "Casco PVC",
+  "item.maurinmod.pvc_chestplate": "Peto PVC",
+  "item.maurinmod.pvc_leggings": "Pantalones PVC",
+  "item.maurinmod.pvc_boots": "Botas PVC",
+
   "item.maurinmod.pvc_pickaxe": "Pico PVC",
   "item.maurinmod.pvc_axe": "Hacha PVC",
   "item.maurinmod.pvc_shovel": "Pala PVC",
   "item.maurinmod.pvc_hoe": "Hoz PVC",
+
+  "block.maurinmod.avocado_tree_log": "Tronco de Palto",
+  "block.maurinmod.stripped_avocado_tree_log": "Tronco pelado de Palto",
+  "block.maurinmod.avocado_tree_planks": "Madera de Palto",
+  "block.maurinmod.stripped_avocado_tree_planks": "Madera lisa de Palto",
+  "block.maurinmod.avocado_tree_leaves": "Hojas de Palto",
+  "block.maurinmod.avocado_tree_sapling": "Brote de Palto",
+  "block.maurinmod.avocado_tree_slab": "Losa de Palto",
+  "block.maurinmod.avocado_tree_stairs": "Escalera de Palto",
+  "block.maurinmod.stripped_avocado_tree_slab": "Losa lisa de Palto",
+  "block.maurinmod.stripped_avocado_tree_stairs": "Escalera lisa de Palto",
+  "block.maurinmod.avocado_tree_fence": "Valla de Palto",
+  "block.maurinmod.avocado_tree_fence_gate": "Puerta de valla de Palto",
+  "block.maurinmod.stripped_avocado_tree_fence": "Valla lisa de Palto",
+  "block.maurinmod.stripped_avocado_tree_fence_gate": "Puerta de valla lisa de Palto",
+
+
+  "block.maurinmod.pvc_ore": "Mena de PVC",
   "block.maurinmod.pvc_block": "Bloque de PVC",
   "block.maurinmod.pvc_block_gold": "Bloque de PVC Definitivo"
 }

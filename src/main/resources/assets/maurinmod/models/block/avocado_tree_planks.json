@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "maurinmod:blocks/avocado_tree_planks"
+  }
+}

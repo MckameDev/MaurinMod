@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "maurinmod:block/stripped_avocado_tree_slab"
+    },
+    "type=double": {
+      "model": "maurinmod:block/stripped_avocado_tree_planks"
+    },
+    "type=top": {
+      "model": "maurinmod:block/stripped_avocado_tree_slab_top"
+    }
+  }
+}
